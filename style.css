@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+  background-color: #9c6644;
+}
+
+.wrapper{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card{
+  max-width: 1000px;
+  background-color: #ede0d4;
+  padding: 25px;
+  margin: 10px;
+  line-height: 28px;
+  font-family: inherit;
+  border-radius: 15px;
+}
+
+.card p{
+  margin-top: 18px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #ede0d4 ;
+  border-radius: 100px;
+}
+
